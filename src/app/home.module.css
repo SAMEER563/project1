@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 100px;
+    background-color: aliceblue;
+}
+
+.img{
+    margin-top: 200px;
+    padding: 100px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+  
+
+}
