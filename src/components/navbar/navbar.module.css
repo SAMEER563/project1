@@ -7,7 +7,9 @@
     background-color: brown;
 }
 .logo{
-    font-size: 50px;
-    font-weight: bold; 
+  position: relative;
+  height: 100px;
+  width: 220px;
+   
     cursor: pointer; 
 }

@@ -1,10 +1,56 @@
-
-
-/* .imgContainer{
+.container{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(210, 217, 128);
+}
+.sideBar{
+    flex: 1;
     position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
     height: 500px;
     
-  
+}
 
-} */
+.midBar{
+    flex: 3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 209, 146);
+    height: 500px;
+    margin-right: 20px;
+    
+}
+
+.rightBar{
+   
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(180, 170, 41);
+    height: 300px;
+    width: 120px;
+    margin-right: 100px;
+}
+
+
+.rImg{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.panel,
+.panelImg{
+    position: relative;
+    height: 50px;
+    width: 220px;
+    background-color: brown;
+}
+
+.panelText{
+  
+    flex-direction: column;
+}
