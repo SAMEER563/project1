@@ -3,9 +3,8 @@ import styles from "./home.module.css"
 
 const Home = () => {
   return (
-    <div className={styles.container}>
-        <Image src="/img.png" alt="" fill className={styles.img} />
-        </div>
+   
+    <div>HomePage</div>
   )
 }
 
