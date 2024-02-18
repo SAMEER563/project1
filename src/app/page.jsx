@@ -23,7 +23,8 @@ const Home = () => {
       </div>
 
       <div className={styles.item2}>
-        <div className={styles.midText}>Grande région de Montréal</div>
+        <div className={styles.midText}>
+          Grande région de Montréal</div>
         <Image src="/img.png" alt="" fill className={styles.midImg} />
       </div>
 
@@ -61,13 +62,12 @@ const Home = () => {
             {" "}
             ou par:
             <div>
-              <span>
                 <input
                   type="text"
                   className={styles.formControl}
                   placeholder="Nom de restaurant"
                 ></input>
-              </span>
+              
             </div>
             <Link href="#" className={styles.menuButton}>
               rechercher
@@ -144,12 +144,65 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className={styles.item6}></div>
       <div className={styles.item7}>
       <Image src="/r_img.png" alt="" fill className={styles.rImg} />
       </div>
-      <div className={styles.item8}></div>
-      <div className={styles.item9}></div>
+      <div className={styles.item6}>
+        <div className={styles.textLbar}>
+         <span>--- Le concept Apport Votre Vin!---</span>
+         <p>Le concept Apportez Votre Vin AVV, est en plein essor au Québec et se veut très différent des autres pays, puisque aucun droit de bouchon n’est exigé et il est obligatoire que les restaurants détiennent un permis dalcool. Cest donc un concept unique au 
+          <br />
+          Québec !
+        <br />
+Malgré le fait quau Québec, le restaurateur doit fournir la verrerie à ses clients, il n’y a aucun frais pour le service du vin à la table, que ce soit pour le servir dans un récipient de glace ou encore pour ouvrir la bouteille. Il y a de quoi être fier de nos restaurateurs québécois ! Découvrez-en plus!</p>
+            <Link href="#" className={styles.bButton}>
+              Visitez notre blogue
+            </Link>
+            </div>
+      </div>
+      <div className={styles.item8}>
+      <div className={styles.btBar}>
+          <span>Recherche Rapide</span>
+        </div>
+        <div className={styles.bBar}>
+          <select>
+            <option>region - toutes</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+          </select>
+          <select>
+            <option>types of cusines - toutes</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+          </select>
+          <select>
+            <option>prix mmoyen- toutes</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+            <option>name</option>
+          </select>
+          <div>
+            {" "}
+            ou par:
+            <div>
+                <input
+                  type="text"
+                  className={styles.formControl}
+                  placeholder="Nom de restaurant"
+                ></input>
+              
+            </div>
+            <Link href="#" className={styles.menuBtn}>
+              rechercher
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
