@@ -35,44 +35,44 @@ const Home = () => {
       <div className={styles.item4}>
         <div className={styles.titleBar}>
           <span>Recherche Rapide</span>
-        </div>
+        
         <div className={styles.ltBar}>
-          <select>
+          <select className={styles.uSelect}>
             <option>region - toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <select>
+          <select className={styles.uSelect}>
             <option>types of cusines - toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <select>
+          <select className={styles.uSelect}>
             <option>prix mmoyen- toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <div>
+          
             {" "}
             ou par:
-            <div>
+        
                 <input
                   type="text"
-                  className={styles.formControl}
+                  className={styles.uformControl}
                   placeholder="Nom de restaurant"
                 ></input>
               
-            </div>
+           
+          </div>
             <Link href="#" className={styles.menuButton}>
               rechercher
             </Link>
-          </div>
         </div>
       </div>
 
@@ -100,7 +100,7 @@ const Home = () => {
             <Image src="/shop-11.jpg" alt="" fill />
           </div>
           <div className={styles.textMbar}>
-            <Link href="#">Resto A</Link>
+            <Link href="#">Resto B</Link>
           </div>
           <div className={styles.ab}>
             <h5>type of cuisine</h5>
@@ -116,7 +116,7 @@ const Home = () => {
             <Image src="/shop-11.jpg" alt="" fill />
           </div>
           <div className={styles.textMbar}>
-            <Link href="#">Resto A</Link>
+            <Link href="#">Resto C</Link>
           </div>
           <div className={styles.ab}>
             <h5>type of cuisine</h5>
@@ -132,7 +132,7 @@ const Home = () => {
             <Image src="/shop-11.jpg" alt="" fill />
           </div>
           <div className={styles.textMbar}>
-            <Link href="#">Resto A</Link>
+            <Link href="#">Resto D</Link>
           </div>
           <div className={styles.ab}>
             <h5>type of cuisine</h5>
@@ -163,34 +163,33 @@ Malgré le fait quau Québec, le restaurateur doit fournir la verrerie à ses cl
       <div className={styles.item8}>
       <div className={styles.btBar}>
           <span>Recherche Rapide</span>
-        </div>
+        
         <div className={styles.bBar}>
-          <select>
+          <select className={styles.select}>
             <option>region - toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <select>
+          <select className={styles.select}>
             <option>types of cusines - toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <select>
+          <select className={styles.select}>
             <option>prix mmoyen- toutes</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
             <option>name</option>
           </select>
-          <div>
+        
             {" "}
             ou par:
-            <div>
-                <input
+                <input 
                   type="text"
                   className={styles.formControl}
                   placeholder="Nom de restaurant"
@@ -201,9 +200,12 @@ Malgré le fait quau Québec, le restaurateur doit fournir la verrerie à ses cl
               rechercher
             </Link>
           </div>
+          <div className={styles.bImg}>
+            <Image src="/avv.png" alt="" fill className={styles.avvImg} />
+          </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
