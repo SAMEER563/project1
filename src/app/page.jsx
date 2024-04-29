@@ -186,7 +186,6 @@ Malgré le fait quau Québec, le restaurateur doit fournir la verrerie à ses cl
             <option>name</option>
             <option>name</option>
           </select>
-        
 
             {" "}
             ou par:
